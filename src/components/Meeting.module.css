@@ -1,10 +1,19 @@
+.container {
+  padding: 80px;
+}
+
 .meetingContainer {
   min-height: 75vh;
 }
 
+.leftContainer {
+  padding: 30px 0px 0px 45px;
+}
+
 .leftContainer,
 .rightContainer {
-  padding: 30px 30px 0px 45px;
+  /* padding: 30px 30px 0px 45px; */
+  marging: auto auto !important;
 }
 
 .headingName {
@@ -34,6 +43,8 @@ span {
 
 .rightContainer {
   position: relative;
+  max-width: 400px;
+  margin: auto auto;
 }
 
 .formHeading {
@@ -43,12 +54,14 @@ span {
 }
 
 .input {
+  max-width: 400px;
   width: 100%;
   padding: 10px 14px;
   font-size: 16px;
   border: 1px solid #d0d0d0;
   border-radius: 8px;
   outline: none;
+  margin: auto auto;
 }
 
 label {
@@ -67,6 +80,7 @@ label {
 }
 
 .inputArea {
+  max-width: 400px;
   width: 100%;
   padding: 10px 14px;
   font-size: 16px;
@@ -75,4 +89,23 @@ label {
   border: 1px solid #d0d0d0;
   border-radius: 8px;
   outline: none;
+  margin: auto auto;
+}
+
+@media screen and (max-width: 690px) {
+  .meetingContainer {
+    min-height: 100%;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .leftContainer {
+    text-align: center;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    padding: 30px 30px 0px 45px;
+  }
 }
