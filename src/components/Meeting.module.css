@@ -1,0 +1,78 @@
+.meetingContainer {
+  min-height: 75vh;
+}
+
+.leftContainer,
+.rightContainer {
+  padding: 30px 30px 0px 45px;
+}
+
+.headingName {
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-bottom: 22px;
+  margin-top: 5px;
+}
+
+.scheduleInfo {
+  margin-bottom: 15px;
+}
+
+span {
+  color: rgba(26, 26, 26, 0.6);
+}
+
+.rightContainer {
+  position: relative;
+}
+
+.formHeading {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  outline: none;
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button {
+  border-radius: 50px !important;
+}
+
+.scheduleButton {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.inputArea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  outline: none;
+}
