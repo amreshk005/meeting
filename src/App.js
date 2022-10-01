@@ -1,5 +1,5 @@
 import "./App.css";
-import Meeting from "./components/Meeting";
+import Meeting from "./components/Meeting/Meeting";
 
 function App() {
   return (
