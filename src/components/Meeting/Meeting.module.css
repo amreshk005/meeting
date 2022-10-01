@@ -92,7 +92,7 @@ label {
   margin: auto auto;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 910px) {
   .meetingContainer {
     min-height: 100%;
   }
